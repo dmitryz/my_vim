@@ -33,3 +33,7 @@ Make sure vim finds the vimrc file by either symlinking it:
 
 or by sourcing it from  your own ~/.vimrc:
 `source ~/.vim/vimrc`
+
+
+My ~/.vimrc
+runtime my_vimrc
