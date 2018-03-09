@@ -14,6 +14,8 @@ set directory^=$HOME/.vim/tmp//
 set clipboard=unnamed
 Plugin 'rking/ag.vim'
 nnoremap fg :Ag! "\b<C-R><C-W>\b"<CR>:cw<CR>
+nnoremap <C-a> :NERDTreeToggle<CR>
+nnoremap <C-z> :q<CR>
 
 set nocompatible      " We're running Vim, not Vi!
 syntax on             " Enable syntax highlighting
