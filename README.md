@@ -20,7 +20,7 @@ Installation
 ============
 
 Clone the repo:
-`git clone https://github.com/scrooloose/vimfiles.git ~/.vim`
+`git clone https://github.com/dmitryz/my_vim.git ~/.vim`
 
 Grab Vundles:
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
@@ -28,12 +28,9 @@ Grab Vundles:
 Install Plugins
 `vim +PluginInstall +qall`
 
-Make sure vim finds the vimrc file by either symlinking it:
-`ln -s ~/.vim/vimrc ~/.vimrc`
+Copy
+`cp ~/.vim/my_vimrc ~/`
 
-or by sourcing it from  your own ~/.vimrc:
-`source ~/.vim/vimrc`
-
-
-My ~/.vimrc
-runtime my_vimrc
+Create
+`~/.vimrc`
+`runtime my_vimrc`
